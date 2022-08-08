@@ -53,17 +53,6 @@ class Window(QWidget):
         self.both.setStyleSheet('background-color: rgba(0, 0, 0, 0)')
         self.both.setEnabled(True)
 
-
-
-
-
-
-
-
-
-
-
-
         self.show()
     def on_click(self):
 
