@@ -55,7 +55,7 @@ class Window(QWidget):
             btn.frameGeometry().width() + self.audio.frameGeometry().width() * 3 + 25),
                        self.frameGeometry().height() - self.audio.frameGeometry().height() - 10)
         self.both.setStyleSheet('background-color: rgba(0, 0, 0, 0)')
-        self.both.setEnabled(True)
+        self.both.setChecked(True)
 
         self.show()
 
